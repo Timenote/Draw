@@ -61,6 +61,9 @@
 
 - (id)initWithFrame:(CGRect)frame
 {
+    
+    // changed
+    
     self = [super initWithFrame:frame];
     if (self) {
         [self configure];
